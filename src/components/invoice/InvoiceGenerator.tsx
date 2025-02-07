@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { Upload, FileText, Download } from 'lucide-react';
 import { pdf } from '@react-pdf/renderer';
