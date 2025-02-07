@@ -2,12 +2,10 @@
 
 import React, { useState } from 'react';
 import { Upload, FileText, Download } from 'lucide-react';
-import { pdf } from '@react-pdf/renderer';
-import { Document, Page, Text, View, StyleSheet, PDFDownloadLink } from '@react-pdf/renderer';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '../ui/card';
+import { Alert, AlertDescription } from '../ui/alert';
+import { Input } from '../ui/input';
+import { Label } from '../ui/label';
 
 // Define PDF styles
 const styles = StyleSheet.create({
